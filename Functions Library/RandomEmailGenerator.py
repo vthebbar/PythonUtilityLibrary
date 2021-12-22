@@ -3,7 +3,7 @@ import random
 import string
 
 
-def random_char(n):   # n is length of email id excluding domain
+def random_email(n):   # n is length of email id excluding domain
 
     # can use below line if want to accept domain name as input, then, email_id = email_id+domain
     #domain = input("Key in domain name [Ex: @gmail.com, @yahoo.com] :-")
@@ -15,4 +15,4 @@ def random_char(n):   # n is length of email id excluding domain
     email_id = email_id + "@gmail.com"
     return email_id
 
-print(random_char(8))
+print(random_email(8))
